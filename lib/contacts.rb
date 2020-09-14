@@ -19,7 +19,7 @@ def remove_strawberry(contacts)
     # binding.pry
     if person == "Freddy Mercury"
       conatct_details_hash.each do |attribute, data|
-        if attribue == :favorite_ice_cream_flavors
+        if attribute == :favorite_ice_cream_flavors
             data.delete_if {|ice_cream| ice cream == "strawberry"}
         end
       end
